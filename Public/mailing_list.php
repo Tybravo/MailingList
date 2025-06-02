@@ -137,8 +137,8 @@ $mail->Port = 465;
 $mail->SMTPSecure = 'ssl';
  
 
-$mail->Username = "noreply@revenueabode.com";
-$mail->Password = "notify@noreply01";
+$mail->Username = "enteryouremail";
+$mail->Password = "enteryourpassword";
  
 $mail->IsHTML(true); // if you are going to send HTML formatted emails
 $mail->SingleTo = true; // if you want to send a same email to multiple users. multiple emails will be sent one-by-one.
